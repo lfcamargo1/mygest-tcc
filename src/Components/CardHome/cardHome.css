@@ -1,0 +1,29 @@
+.card {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-top: -25px;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 28px;
+    background: #ffffff;
+    box-shadow:  0 6px 4px -1px #bababa;
+}
+.title {
+    display: flex;
+    flex-direction:  row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+.value {
+    font-family: "Poppins";
+    font-size: 26px;
+    font-weight: bold;
+}

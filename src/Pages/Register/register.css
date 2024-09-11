@@ -1,0 +1,70 @@
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.container .left{
+    width: 50%;
+    height: 100%;
+    background-color: #01977E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+.left .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.title {
+    font-family: 'Poppins';
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h1{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.title span{
+    font-size: 18px;
+    text-align: center;
+}
+.figure {
+    width: 60%;
+    scale: 1.3;
+    height: 450px;
+}
+.right h1{
+    font-family: 'Poppins';
+    color: #01977E;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.bola-cima{
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #01977E;
+    border-radius: 0 0 0 100%;
+}

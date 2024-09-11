@@ -1,0 +1,16 @@
+.container-login{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.bola-baixo {
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #01977E;
+    border-radius: 0 100% 0 0;
+}
