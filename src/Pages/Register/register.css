@@ -29,7 +29,7 @@
     align-items: center;
     gap: 40px;
 }
-.title {
+.title-reg {
     font-family: 'Poppins';
     color: #fff;
     display: flex;
@@ -38,12 +38,14 @@
     align-items: center;
 }
 
-.title h1{
+.title-reg h1{
     font-size: 40px;
     font-weight: 700;
+    font-family: "Poppins";
+    color: #fff;
     text-align: center;
 }
-.title span{
+.title-reg span{
     font-size: 18px;
     text-align: center;
 }
@@ -68,3 +70,4 @@
     background-color: #01977E;
     border-radius: 0 0 0 100%;
 }
+

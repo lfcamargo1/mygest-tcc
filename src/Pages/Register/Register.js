@@ -9,7 +9,7 @@ export default function Register() {
         <div className="container">
            <div className="left" >
                 <div className="content">
-                    <div className="title">
+                    <div className="title-reg">
                         <h1>Bem-vindo(a) ao MyGest</h1>
                         <span>Controle suas finanças e cuide do seu dinheiro.</span>
                     </div>

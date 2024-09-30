@@ -1,0 +1,19 @@
+#categorias {
+    flex-direction: column;
+    padding: 16px;
+    gap: 15px;
+    height: auto;
+}
+
+.title h1 {
+    font-weight: 300;
+}
+
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+    justify-content: space-around;;
+}
