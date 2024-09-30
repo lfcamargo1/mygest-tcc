@@ -7,7 +7,7 @@ import lixeira from '../../Assets/lixeira1.svg'
 export default function Home() {
     return (
         <>
-            <Header name="Rafael"/>
+            <Header name="Luís Felipe"/>
             <body>
                 <div className="card-rows" >
                     <div className="buttons-filter">

@@ -8,7 +8,7 @@ export default function Categorias() {
 
     return (
         <>
-            <Header name="Rafael" />
+            <Header name="Luís" />
             <body>
                 <div className='form-add-cat' id='categorias'>
                     <div className='title'>

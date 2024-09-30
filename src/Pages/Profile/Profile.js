@@ -7,7 +7,7 @@ export default function Profile() {
 
     return (
         <>
-            <Header name="Rafael" />
+            <Header name="Luís" />
             <body className="container-perfil">
                 <div className="profile-title">
                     <div className="name-row">
