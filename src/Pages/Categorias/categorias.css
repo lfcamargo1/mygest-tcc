@@ -17,3 +17,13 @@
     padding: 10px 0;
     justify-content: space-around;;
 }
+
+tr {
+    text-align: center;
+}
+tr td img {
+    cursor: pointer;
+}
+tr td img:hover {
+    scale: 1.1;
+}

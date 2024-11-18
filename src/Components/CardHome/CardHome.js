@@ -9,7 +9,7 @@ export default function CardHome(props) {
                 <span>{props.title}</span>
                 <img src={seta} />
             </div>
-            <span className="value">R$ 1500,00</span>
+            <span className="value">R$ {props.value}</span>
         </div>
     )
 }

@@ -6,7 +6,7 @@ export default function Perfil() {
 
     return(
         <>
-            <Header name="Luís" />
+            <Header name="Luis" />
             <div className="container-perfil">
                 <h1>Olá Luís, essas são as informações do seu perfil!</h1>
                 <div className="underline"></div>

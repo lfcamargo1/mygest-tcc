@@ -18,7 +18,7 @@
     gap: 10px;
 }
 
-.buttons-filter button {
+.btnfilter {
     width: 100%;
     border-radius: 22px;
     font-family: "Poppins";
@@ -32,9 +32,23 @@
     box-shadow: 0 6px 4px -1px #bababa;
 }
 
-.buttons-filter button:hover {
+.btnfilter:hover {
     background-color: #01977E;
     color: #fff;
+}
+
+.btnselected {
+    width: 100%;
+    border-radius: 22px;
+    font-family: "Poppins";
+    border: 0;
+    padding: 8px 12px;
+    background-color: #01977E;
+    cursor: pointer;
+    transition: all 0.2s;
+    color: #fff;
+    font-size: 18px;
+    box-shadow: 0 6px 4px -1px #bababa;
 }
 
 .form-add-cat {
@@ -66,6 +80,10 @@
     margin-left: 5px;
     font-family: "Poppins";
     font-size: 16px;
+}
+
+.inputarea-home select {
+    padding: 10px 12px;
 }
 
 .input-radio {
@@ -114,7 +132,15 @@ table {
     width: 90%;
 }
 
-table tbody tr td {
+table tbody tr td input{
+    border: 0;
     text-align: center;
+    font-family: "Poppins";
     font-size: 16px;
+}
+
+table tbody tr td select {
+    font-family: "Poppins";
+    font-size: 16px;
+    border: 0;
 }

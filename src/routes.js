@@ -4,6 +4,7 @@ import Register from "./Pages/Register/Register";
 import Home from "./Pages/Home/Home";
 import Categorias from "./Pages/Categorias/Categorias";
 import Profile from "./Pages/Profile/Profile";
+import Private from "./Private";
 
 
 export default function Router() {
@@ -11,9 +12,9 @@ export default function Router() {
         <Routes>
             <Route path="/" element={<Login />} />
             <Route path="/register" element={<Register />} />
-            <Route path="/home" element={<Home />} />
-            <Route path="/categorias" element={<Categorias />} />
-            <Route path="/profile" element={<Profile />} />
+            <Route path="/home" element={<Private><Home /></Private>} />
+            <Route path="/categorias" element={<Private><Categorias /></Private>} />
+            <Route path="/profile" element={<Private><Profile /></Private>} />
         </Routes>
     )
 }
